@@ -38,3 +38,18 @@ go build -o <outpout-file-name> - save executable with custom name
 go install -  compile the executable file and move to $GOPATH/bin or $GOBIN if set
 
 ```
+** sample go code **
+
+
+```
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+
+```
+
+
